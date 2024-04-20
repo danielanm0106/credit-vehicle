@@ -1,0 +1,101 @@
+.r-tabs,
+.r-tabs .r-tabs-nav .r-tabs-tab {
+  position: relative;
+}
+.r-tabs {
+  border-radius: 4px;
+  margin-left: 20px;
+}
+.r-tabs .r-tabs-nav .r-tabs-anchor,
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+  margin-left: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 7px;
+  text-decoration: none;
+  text-shadow: none;
+  list-style: none;
+}
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+  color: #0b2766;
+  border-radius: 30px;
+}
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+  opacity: 0.5;
+}
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+  color: #827869;
+  border: 1px solid #ccc8c5;
+  border-radius: 30px;
+}
+.r-tabs .r-tabs-panel {
+  margin-top: 15px;
+}
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+  display: block;
+  padding: 10px;
+  color: #0b2766;
+  text-decoration: none;
+  font-size: 14px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom: 1px solid #ccc8c5;
+}
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+  color: #0b2766;
+  text-shadow: none;
+  border-bottom: 1px solid #ccc8c5;
+}
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+  opacity: 0.5;
+}
+.vinieta {
+  list-style-image: url(/assets/gamarillo.png?MOD=AJPERES);
+}
+.vinieta-pdf {
+  list-style-image: url(/assets/icon-pdf.png?MOD=AJPERES);
+}
+.r-tabs .r-tabs-nav {
+  margin: 0 0 0 5%;
+  padding: 0;
+}
+.r-tabs .r-tabs-tab {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+}
+.r-tabs .r-tabs-panel {
+  padding: 15px;
+  display: none;
+}
+.r-tabs .r-tabs-accordion-title {
+  display: none;
+}
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .r-tabs .r-tabs-nav {
+    display: none;
+    text-align: left !important;
+  }
+  .r-tabs .r-tabs-accordion-title {
+    display: block;
+  }
+  div#horizontalTab.r-tabs {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .r-tabs .r-tabs-accordion-title div.arrow-down {
+    float: right;
+  }
+  .r-tabs .r-tabs-accordion-title div.arrow-down::before {
+    content: url(/assets/arrow-int-down-blue.png?MOD=AJPERES);
+  }
+  .r-tabs .r-tabs-accordion-title.r-tabs-state-active div.arrow-down::before {
+    content: url(/assets/arrow-up-blue.png?MOD=AJPERES);
+  }
+}

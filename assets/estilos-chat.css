@@ -1,0 +1,9 @@
+.cx-widget{
+  font-family: 'Open Sans', sans-serif !important;
+  z-index: 9999 !important;
+}
+.cx-button-group.cx-buttons-binary{
+  width: 100%;
+}
+.cx-webchat .cx-alert>.cx-wrapper {width: 90% !important;}
+.cx-webchat.cx-theme-blue .cx-transcript .cx-message.cx-you .cx-bubble{margin: 15px 0 !important;}
